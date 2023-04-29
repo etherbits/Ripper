@@ -41,7 +41,7 @@
         "fullscreen": false,
         "resizable": true,
         "title": "ripper",
-        "width": 800,
+        "width": 480,
         "height": 600
       }
     ]
