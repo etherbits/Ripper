@@ -23,12 +23,11 @@ const App = () => {
           onClick={async () => {
             const views: number = await invoke("get_video", {
               url: "https://www.youtube.com/watch?v=Z5NoQg8LdDk",
-            })
-
-            setViewCount(views)
-
-          }
-          }
+              path: "/home/etherbits/ripper/"
+            });
+            console.log(views)
+            setViewCount(views);
+          }}
         >
           GET DATA
         </button>
